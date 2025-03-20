@@ -5,23 +5,40 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+#header, .nav a, #hero, #cta {
+    color: white;
+}
+
 #header {
     background-color: #2c302e;
-    color: white;
     height: 60px;
-}
-.nav a{
-    color: white;
 }
 #hero {
     font-size: 22px;
-    color: white;
 }
 #hero h1 {
     font-size: 80px;
 }
 #cta {
     background-color: #21a179;
-    color: white;
-    text-decoration: none;
+}
+#cta:hover {
+    background-color: white;
+    color: #21a179;
+}
+
+#services {
+    background-color: rgb(140, 226, 166);
+}
+.card {
+    background-color: white;
+    width: fit-content;
 }
